@@ -2,7 +2,6 @@ package com.example.meusgastos.security;
 
 import java.io.IOException;
 import java.util.Date;
-
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.InternalAuthenticationServiceException;
@@ -10,7 +9,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-
 import com.example.meusgastos.common.ConversorData;
 import com.example.meusgastos.domain.model.ErroResposta;
 import com.example.meusgastos.domain.model.Usuario;
@@ -19,7 +17,6 @@ import com.example.meusgastos.domain.dto.usuario.LoginResponseDTO;
 import com.example.meusgastos.domain.dto.usuario.UsuarioResponseDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
-
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
